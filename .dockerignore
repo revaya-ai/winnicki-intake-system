@@ -1,0 +1,49 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Documentation
+*.md
+!README.md
+
+# Output files
+output/
+*.log
+
+# Google credentials
+credentials.json
+token.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment scripts (already in container)
+deploy.sh
+deploy-with-secrets.sh
